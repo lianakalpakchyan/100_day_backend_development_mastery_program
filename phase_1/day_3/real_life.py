@@ -26,3 +26,6 @@ def read_chunks(file, size):
 
 def expensive_operation(chunk):
     return [line.strip().upper() for line in chunk if line]
+
+
+process_large_dataset('large_data.txt')
